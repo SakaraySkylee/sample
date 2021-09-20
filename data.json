@@ -1,0 +1,38 @@
+[
+   {
+      "id":"Shelter",
+	  "class":"Aquatic",
+	  "part":"(Back) Hermit",
+      "cost":"1",
+      "attact":"0",
+	  "attact_type":"Melee",
+	  "defence":"110",
+	  "text":"Disable critical strikes on this Axie during this round.",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-02.png",
+      "source":"https://www.axieworld.com/en/tools/cards-explorer"
+   },
+   {
+      "id":"Scale Dart",
+	  "class":"Aquatic",
+	  "part":"(Back) Blue Moon",
+      "cost":"1",
+      "attact":"120",
+	  "attact_type":"Ranged",
+	  "defence":"30",
+	  "text":"Draw a card if target is in Last Stand.",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-04.png",
+      "source":"https://www.axieworld.com/en/tools/cards-explorer"
+   },   
+   {
+      "id":"-blank-",
+	  "class":"-blank-",
+	  "part":"-blank-",
+      "cost":"-blank-",
+      "attact":"-blank-",
+	  "attact_type":"-blank-",
+	  "defence":"-blank-",
+	  "text":"-blank-",
+      "image":"-blank-",
+      "source":"-blank-"
+   }
+]

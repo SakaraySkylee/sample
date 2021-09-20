@@ -42,7 +42,51 @@
 	  "defence":"90",
 	  "text":"Apply Attack+ to this Axie if its shield breaks.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-08.png"
-   },    
+   }, 
+   {
+      "id":"aqua vitality",
+	  "class":"Aquatic",
+	  "part":"(Back) Anemone",
+      "cost":"1",
+      "attact":"80",
+	  "attact_type":"Melee",
+	  "defence":"40",
+	  "text":"Successful attacks restore 50 HP for each Anemone part this Axie posseses.",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-10.png"
+   },   
+   {
+      "id":"spinal tap",
+	  "class":"Aquatic",
+	  "part":"(Back) Perch",
+      "cost":"1",
+      "attact":"100",
+	  "attact_type":"Melee",
+	  "defence":"20",
+	  "text":"Prioritize idle target when comboed with at least 2 additional cards.",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-12.png"
+   },   
+   {
+      "id":"shell jab",
+	  "class":"Aquatic",
+	  "part":"(Horn) Babylonia",
+      "cost":"1",
+      "attact":"100",
+	  "attact_type":"Melee",
+	  "defence":"50",
+	  "text":"Deal 130% damage when attacking an idle target.",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-horn-02.png"
+   },   
+   {
+      "id":"deep sea gore",
+	  "class":"Aquatic",
+	  "part":"(Horn) Teal Shell",
+      "cost":"1",
+      "attact":"50",
+	  "attact_type":"Melee",
+	  "defence":"80",
+	  "text":"Add 30% to this Axie's shield when attacking.",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-horn-04.png"
+   },      
    {
       "id":"-blank-",
 	  "class":"-blank-",

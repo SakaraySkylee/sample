@@ -9,7 +9,6 @@
 	  "defence":"110",
 	  "text":"Disable critical strikes on this Axie during this round.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-02.png",
-      "source":"https://www.axieworld.com/en/tools/cards-explorer"
    },
    {
       "id":"scale dart",
@@ -21,8 +20,29 @@
 	  "defence":"30",
 	  "text":"Draw a card if target is in Last Stand.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-04.png",
-      "source":"https://www.axieworld.com/en/tools/cards-explorer"
-   },   
+   },
+   {
+      "id":"swift escape",
+	  "class":"Aquatic",
+	  "part":"(Back) Goldfish",
+      "cost":"1",
+      "attact":"110",
+	  "attact_type":"Melee",
+	  "defence":"20",
+	  "text":"Apply Speed+ to this Axie for 2 rounds when attacked.",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-06.png",
+   }, 
+   {
+      "id":"shipwreck",
+	  "class":"Aquatic",
+	  "part":"(Back) Blue Moon",
+      "cost":"1",
+      "attact":"60",
+	  "attact_type":"Melee",
+	  "defence":"90",
+	  "text":"Apply Attack+ to this Axie if its shield breaks.",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-08.png",
+   },    
    {
       "id":"-blank-",
 	  "class":"-blank-",
@@ -33,6 +53,5 @@
 	  "defence":"-blank-",
 	  "text":"-blank-",
       "image":"-blank-",
-      "source":"-blank-"
    }
 ]

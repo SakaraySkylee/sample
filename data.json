@@ -8,7 +8,7 @@
 	  "attact_type":"Melee",
 	  "defence":"110",
 	  "text":"Disable critical strikes on this Axie during this round.",
-      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-02.png",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-02.png"
    },
    {
       "id":"scale dart",
@@ -19,7 +19,7 @@
 	  "attact_type":"Ranged",
 	  "defence":"30",
 	  "text":"Draw a card if target is in Last Stand.",
-      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-04.png",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-04.png"
    },
    {
       "id":"swift escape",
@@ -30,7 +30,7 @@
 	  "attact_type":"Melee",
 	  "defence":"20",
 	  "text":"Apply Speed+ to this Axie for 2 rounds when attacked.",
-      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-06.png",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-06.png"
    }, 
    {
       "id":"shipwreck",
@@ -41,7 +41,7 @@
 	  "attact_type":"Melee",
 	  "defence":"90",
 	  "text":"Apply Attack+ to this Axie if its shield breaks.",
-      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-08.png",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-08.png"
    },    
    {
       "id":"-blank-",
@@ -52,6 +52,6 @@
 	  "attact_type":"-blank-",
 	  "defence":"-blank-",
 	  "text":"-blank-",
-      "image":"-blank-",
+      "image":"-blank-"
    }
 ]

@@ -35,7 +35,7 @@
    {
       "id":"shipwreck",
 	  "class":"Aquatic",
-	  "part":"(Back) Blue Moon",
+	  "part":"(Back) Sponge",
       "cost":"1",
       "attact":"60",
 	  "attact_type":"Melee",

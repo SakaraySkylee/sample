@@ -220,26 +220,26 @@
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-tail-08.png"
    },
    {
-      "id":"-blank-",
-	  "class":"-blank-",
-	  "part":"-blank-",
-      "cost":"-blank-",
-      "attact":"-blank-",
-	  "attact_type":"-blank-",
-	  "defence":"-blank-",
-	  "text":"-blank-",
-      "image":"-blank-"
+      "id":"flanking smack",
+	  "class":"Aquatic",
+	  "part":"(Tail) Navaga",
+      "cost":"1",
+      "attact":"100",
+	  "attact_type":"Melee",
+	  "defence":"40",
+	  "text":"Deal 120% damage if this Axie attacks first.",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-tail-10.png"
    },
    {
-      "id":"-blank-",
-	  "class":"-blank-",
-	  "part":"-blank-",
-      "cost":"-blank-",
-      "attact":"-blank-",
-	  "attact_type":"-blank-",
-	  "defence":"-blank-",
-	  "text":"-blank-",
-      "image":"-blank-"
+      "id":"chitin jump",
+	  "class":"Aquatic",
+	  "part":"(Tail) Shrimp",
+      "cost":"1",
+      "attact":"30",
+	  "attact_type":"Melee",
+	  "defence":"30",
+	  "text":"Prioritizes furthest target",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-tail-12.png"
    },
    {
       "id":"-blank-",

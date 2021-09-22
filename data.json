@@ -242,15 +242,15 @@
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-tail-12.png"
    },
    {
-      "id":"-blank-",
-	  "class":"-blank-",
-	  "part":"-blank-",
-      "cost":"-blank-",
-      "attact":"-blank-",
-	  "attact_type":"-blank-",
-	  "defence":"-blank-",
-	  "text":"-blank-",
-      "image":"-blank-"
+      "id":"single combat",
+	  "class":"Beast",
+	  "part":"(Mouth) Ronin",
+      "cost":"1",
+      "attact":"75",
+	  "attact_type":"Melee",
+	  "defence":"0",
+	  "text":"Guaranteed critical strike when comboed with at least 2 other cards.",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/beast-back-02.png"
    },
    {
       "id":"-blank-",

@@ -2,7 +2,7 @@
    {
       "id":"shelter",
 	  "class":"Aquatic",
-	  "part":"(Back) Hermit",
+	  "part":"Back: Hermit",
       "cost":"1",
       "attact":"0",
 	  "attact_type":"Melee",
@@ -13,7 +13,7 @@
    {
       "id":"scale dart",
 	  "class":"Aquatic",
-	  "part":"(Back) Blue Moon",
+	  "part":"Back: Blue Moon",
       "cost":"1",
       "attact":"120",
 	  "attact_type":"Ranged",
@@ -24,7 +24,7 @@
    {
       "id":"swift escape",
 	  "class":"Aquatic",
-	  "part":"(Back) Goldfish",
+	  "part":"Back: Goldfish",
       "cost":"1",
       "attact":"110",
 	  "attact_type":"Melee",
@@ -35,7 +35,7 @@
    {
       "id":"shipwreck",
 	  "class":"Aquatic",
-	  "part":"(Back) Sponge",
+	  "part":"Back: Sponge",
       "cost":"1",
       "attact":"60",
 	  "attact_type":"Melee",
@@ -46,7 +46,7 @@
    {
       "id":"aqua vitality",
 	  "class":"Aquatic",
-	  "part":"(Back) Anemone",
+	  "part":"Back: Anemone",
       "cost":"1",
       "attact":"80",
 	  "attact_type":"Melee",
@@ -57,7 +57,7 @@
    {
       "id":"spinal tap",
 	  "class":"Aquatic",
-	  "part":"(Back) Perch",
+	  "part":"Back: Perch",
       "cost":"1",
       "attact":"100",
 	  "attact_type":"Melee",
@@ -68,7 +68,7 @@
    {
       "id":"shell jab",
 	  "class":"Aquatic",
-	  "part":"(Horn) Babylonia",
+	  "part":"Horn: Babylonia",
       "cost":"1",
       "attact":"100",
 	  "attact_type":"Melee",
@@ -79,7 +79,7 @@
    {
       "id":"deep sea gore",
 	  "class":"Aquatic",
-	  "part":"(Horn) Teal Shell",
+	  "part":"Horn: Teal Shell",
       "cost":"1",
       "attact":"50",
 	  "attact_type":"Melee",
@@ -90,7 +90,7 @@
    {
       "id":"clam slash",
 	  "class":"Aquatic",
-	  "part":"(Horn) Clamshell",
+	  "part":"Horn: Clamshell",
       "cost":"1",
       "attact":"110",
 	  "attact_type":"Melee",
@@ -101,7 +101,7 @@
    {
       "id":"aquaponics",
 	  "class":"Aquatic",
-	  "part":"(Horn) Anemone",
+	  "part":"Horn: Anemone",
       "cost":"1",
       "attact":"80",
 	  "attact_type":"Ranged",
@@ -112,7 +112,7 @@
    {
       "id":"hero's bane",
 	  "class":"Aquatic",
-	  "part":"(Horn) Oranda",
+	  "part":"Horn: Oranda",
       "cost":"1",
       "attact":"120",
 	  "attact_type":"Ranged",
@@ -123,7 +123,7 @@
    {
       "id":"star shuriken",
 	  "class":"Aquatic",
-	  "part":"(Horn) Shoal Star",
+	  "part":"Horn: Shoal Star",
       "cost":"1",
       "attact":"115",
 	  "attact_type":"Ranged",
@@ -134,7 +134,7 @@
    {
       "id":"angry lam",
 	  "class":"Aquatic",
-	  "part":"(Mouth) Lam",
+	  "part":"Mouth: Lam",
       "cost":"1",
       "attact":"110",
 	  "attact_type":"Melee",
@@ -145,7 +145,7 @@
    {
       "id":"swallow",
 	  "class":"Aquatic",
-	  "part":"(Mouth) Catfish",
+	  "part":"Mouth: Catfish",
       "cost":"1",
       "attact":"80",
 	  "attact_type":"Melee",
@@ -156,7 +156,7 @@
    {
       "id":"fish hook",
 	  "class":"Aquatic",
-	  "part":"(Mouth) Risky Fish",
+	  "part":"Mouth: Risky Fish",
       "cost":"1",
       "attact":"110",
 	  "attact_type":"Melee",
@@ -167,7 +167,7 @@
    {
       "id":"crimson water",
 	  "class":"Aquatic",
-	  "part":"(Mouth) Piranha",
+	  "part":"Mouth: Piranha",
       "cost":"1",
       "attact":"130",
 	  "attact_type":"Melee",
@@ -178,7 +178,7 @@
    {
       "id":"upstream swim",
 	  "class":"Aquatic",
-	  "part":"(Tail) Koi",
+	  "part":"Tail: Koi",
       "cost":"1",
       "attact":"110",
 	  "attact_type":"Melee",
@@ -189,7 +189,7 @@
    {
       "id":"tail slap",
 	  "class":"Aquatic",
-	  "part":"(Tail) Nimo",
+	  "part":"Tail: Nimo",
       "cost":"0",
       "attact":"30",
 	  "attact_type":"Melee",
@@ -200,7 +200,7 @@
    {
       "id":"black bubble",
 	  "class":"Aquatic",
-	  "part":"(Tail) Tadpole",
+	  "part":"Tail: Tadpole",
       "cost":"1",
       "attact":"100",
 	  "attact_type":"Ranged",
@@ -211,7 +211,7 @@
    {
       "id":"water sphere",
 	  "class":"Aquatic",
-	  "part":"(Tail) Ranchu",
+	  "part":"Tail: Ranchu",
       "cost":"1",
       "attact":"110",
 	  "attact_type":"Ranged",
@@ -222,7 +222,7 @@
    {
       "id":"flanking smack",
 	  "class":"Aquatic",
-	  "part":"(Tail) Navaga",
+	  "part":"Tail: Navaga",
       "cost":"1",
       "attact":"100",
 	  "attact_type":"Melee",
@@ -233,7 +233,7 @@
    {
       "id":"chitin jump",
 	  "class":"Aquatic",
-	  "part":"(Tail) Shrimp",
+	  "part":"Tail: Shrimp",
       "cost":"1",
       "attact":"30",
 	  "attact_type":"Melee",
@@ -244,7 +244,7 @@
    {
       "id":"single combat",
 	  "class":"Beast",
-	  "part":"(Mouth) Ronin",
+	  "part":"Mouth: Ronin",
       "cost":"1",
       "attact":"75",
 	  "attact_type":"Melee",
@@ -253,48 +253,48 @@
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/beast-back-02.png"
    },
    {
-      "id":"-blank-",
-	  "class":"-blank-",
-	  "part":"-blank-",
-      "cost":"-blank-",
-      "attact":"-blank-",
-	  "attact_type":"-blank-",
-	  "defence":"-blank-",
-	  "text":"-blank-",
-      "image":"-blank-"
+      "id":"heroic reward",
+	  "class":"Beast",
+	  "part":"Back: HERO",
+      "cost":"0",
+      "attact":"50,
+	  "attact_type":"Melee,
+	  "defence":"0",
+	  "text":"Draw a card when attacking an Aquatic, Bird, or Dawn target.",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/beast-back-04.png"
    },
    {
-      "id":"-blank-",
-	  "class":"-blank-",
-	  "part":"-blank-",
-      "cost":"-blank-",
-      "attact":"-blank-",
-	  "attact_type":"-blank-",
-	  "defence":"-blank-",
-	  "text":"-blank-",
-      "image":"-blank-"
+      "id":"nitro leap",
+	  "class":"Beast
+	  "part":"Back: Jaguar"
+      "cost":"1",
+      "attact":"115",
+	  "attact_type":"Melee",
+	  "defence":"35",
+	  "text":"Always strike first if this Axie is in Last Stand.",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/beast-back-06.png"
    },
    {
-      "id":"-blank-",
-	  "class":"-blank-",
-	  "part":"-blank-",
-      "cost":"-blank-",
-      "attact":"-blank-",
-	  "attact_type":"-blank-",
-	  "defence":"-blank-",
-	  "text":"-blank-",
-      "image":"-blank-"
+      "id":"revenge arrow",
+	  "class":"Beast",
+	  "part":"Back: Risky Beast",
+      "cost":"1",
+      "attact":"125",
+	  "attact_type":"Ranged",
+	  "defence":"25",
+	  "text":"Deal 150% damage if this Axie is in Last Stand.",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/beast-back-08.png"
    },
    {
-      "id":"-blank-",
-	  "class":"-blank-",
-	  "part":"-blank-",
-      "cost":"-blank-",
-      "attact":"-blank-",
-	  "attact_type":"-blank-",
-	  "defence":"-blank-",
-	  "text":"-blank-",
-      "image":"-blank-"
+      "id":"woodman power",
+	  "class":"Beast",
+	  "part":"Back: Timber",
+      "cost":"1",
+      "attact":"50",
+	  "attact_type":"Melee",
+	  "defence":"100",
+	  "text":"Add Shield equal to the damage this cards deals to Plant targets.",
+      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/beast-back-10.png"
    },
    {
       "id":"-blank-",

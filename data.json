@@ -258,14 +258,14 @@
 	  "part":"Back: HERO",
       "cost":"0",
       "attact":"50",
-	  "attact_type":"Melee,
+	  "attact_type":"Melee",
 	  "defence":"0",
 	  "text":"Draw a card when attacking an Aquatic, Bird, or Dawn target.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/beast-back-04.png"
    },
    {
       "id":"nitro leap",
-	  "class":"Beast
+	  "class":"Beast"
 	  "part":"Back: Jaguar"
       "cost":"1",
       "attact":"115",

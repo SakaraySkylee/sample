@@ -1450,16 +1450,5 @@
 	  "defence":"20",
 	  "text":"Apply Poison to target.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/reptile-tail-12.png"
-   },
-   {
-	  "class":"-blank-",   
-      "id":"-blank-",
-	  "part":"-blank-",
-	  "attact_type":"-blank-",	  
-      "cost":"-blank-",
-      "attact":"-blank-",
-	  "defence":"-blank-",
-	  "text":"-blank-",
-      "image":"https://sakarayskylee.github.io/sample/image/blank.png"
    }
 ]

@@ -266,7 +266,7 @@
    {
       "id":"nitro leap",
 	  "class":"Beast"
-	  "part":"Back: Jaguar"
+	  "part":"Back: Jaguar",
       "cost":"1",
       "attact":"115",
 	  "attact_type":"Melee",

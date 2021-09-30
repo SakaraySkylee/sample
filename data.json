@@ -257,7 +257,7 @@
 	  "class":"Beast",
 	  "part":"Back: HERO",
       "cost":"0",
-      "attact":"50,
+      "attact":"50",
 	  "attact_type":"Melee,
 	  "defence":"0",
 	  "text":"Draw a card when attacking an Aquatic, Bird, or Dawn target.",

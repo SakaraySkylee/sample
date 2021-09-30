@@ -265,7 +265,7 @@
    },
    {
       "id":"nitro leap",
-	  "class":"Beast"
+	  "class":"Beast",
 	  "part":"Back: Jaguar",
       "cost":"1",
       "attact":"115",

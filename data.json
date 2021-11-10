@@ -26,7 +26,7 @@
 	  "class":"Aquatic",
 	  "part":"Back: Goldfish",
       "cost":"1",
-      "attact":"110",
+      "attact":"105",
 	  "attact_type":"Melee",
 	  "defence":"20",
 	  "text":"Apply Speed+ to this Axie for 2 rounds when attacked.",
@@ -50,7 +50,7 @@
       "cost":"1",
       "attact":"80",
 	  "attact_type":"Melee",
-	  "defence":"40",
+	  "defence":"35",
 	  "text":"Successful attacks restore 50 HP for each Anemone part this Axie posseses.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-back-10.png"
    },   
@@ -105,7 +105,7 @@
       "cost":"1",
       "attact":"80",
 	  "attact_type":"Ranged",
-	  "defence":"40",
+	  "defence":"35",
 	  "text":"Successful attacks restore 50 HP for each Anemone part this Axie posseses.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-horn-08.png"
    },
@@ -125,7 +125,7 @@
 	  "class":"Aquatic",
 	  "part":"Horn: Shoal Star",
       "cost":"1",
-      "attact":"115",
+      "attact":"110",
 	  "attact_type":"Ranged",
 	  "defence":"10",
 	  "text":"Target cannot enter Last Stand if this card brings its HP to zero.",
@@ -158,9 +158,9 @@
 	  "class":"Aquatic",
 	  "part":"Mouth: Risky Fish",
       "cost":"1",
-      "attact":"110",
+      "attact":"105",
 	  "attact_type":"Melee",
-	  "defence":"30",
+	  "defence":"20",
 	  "text":"Apply Attack+ to this Axie when attacking Plant, Reptile, or Dusk targets.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-mouth-08.png"
    },
@@ -191,7 +191,7 @@
 	  "class":"Aquatic",
 	  "part":"Tail: Nimo",
       "cost":"0",
-      "attact":"30",
+      "attact":"20",
 	  "attact_type":"Melee",
 	  "defence":"0",
 	  "text":"Gain 1 energy when comboed with another card.",
@@ -246,7 +246,7 @@
 	  "class":"Beast",
 	  "part":"Mouth: Ronin",
       "cost":"1",
-      "attact":"75",
+      "attact":"80",
 	  "attact_type":"Melee",
 	  "defence":"0",
 	  "text":"Guaranteed critical strike when comboed with at least 2 other cards.",
@@ -268,7 +268,7 @@
 	  "class":"Beast",
 	  "part":"Back: Jaguar",
       "cost":"1",
-      "attact":"115",
+      "attact":"120",
 	  "attact_type":"Melee",
 	  "defence":"35",
 	  "text":"Always strike first if this Axie is in Last Stand.",
@@ -290,9 +290,9 @@
 	  "class":"Beast",
 	  "part":"Back: Timber",
       "cost":"1",
-      "attact":"50",
+      "attact":"80",
 	  "attact_type":"Melee",
-	  "defence":"100",
+	  "defence":"80",
 	  "text":"Add Shield equal to the damage this cards deals to Plant targets.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/beast-back-10.png"
    },
@@ -323,9 +323,9 @@
 	  "class":"Beast",
 	  "part":"Horn: Imp",
       "cost":"1",
-      "attact":"70",
+      "attact":"80",
 	  "attact_type":"Melee",
-	  "defence":"20",
+	  "defence":"30",
 	  "text":"Gain 1 energy per critical strike dealt by your team this round.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/beast-horn-04.png"
    },
@@ -334,7 +334,7 @@
 	  "class":"Beast",
 	  "part":"Horn: Merry",
       "cost":"1",
-      "attact":"65",
+      "attact":"75",
 	  "attact_type":"Melee",
 	  "defence":"85",
 	  "text":"Add 20% shield to this Axie when played in a chain.",
@@ -359,7 +359,7 @@
       "attact":"130",
 	  "attact_type":"Melee",
 	  "defence":"20",
-	  "text":"Deal 250% damage on critical strikes.",
+	  "text":"Deal 200% damage on critical strikes.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/beast-horn-10.png"
    },
    {
@@ -424,7 +424,7 @@
       "cost":"0",
       "attact":"0",
 	  "attact_type":"Ranged",
-	  "defence":"0",
+	  "defence":"30",
 	  "text":"Gain 1 energy.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/beast-tail-02.png"
    },
@@ -578,7 +578,7 @@
 	  "attact_type":"Support",	  
       "cost":"1",
       "attact":"0",
-	  "defence":"40",
+	  "defence":"50",
 	  "text":"Heal this Axie for 120 HP.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/plant-horn-06.png"
    },
@@ -589,7 +589,7 @@
 	  "attact_type":"Support",	  
       "cost":"2",
       "attact":"0",
-	  "defence":"0",
+	  "defence":"40",
 	  "text":"Heal front teammate for 270 HP. If there are no front teammates, heal this Axie instead.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/plant-horn-08.png"
    },
@@ -599,7 +599,7 @@
 	  "part":"Horn: Cactus",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"110",
+      "attact":"115",
 	  "defence":"20",
 	  "text":"Deal 120% damage if this Axie attacks last.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/plant-horn-10.png"
@@ -698,7 +698,7 @@
 	  "part":"Tail: Yam",
 	  "attact_type":"Ranged",	  
       "cost":"1",
-      "attact":"30",
+      "attact":"20",
 	  "defence":"20",
 	  "text":"Apply poison each time this card is used to attack or defend.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/plant-tail-08.png"
@@ -786,7 +786,7 @@
 	  "part":"Back: Tri Feather",
 	  "attact_type":"Ranged",	  
       "cost":"0",
-      "attact":"30",
+      "attact":"40",
 	  "defence":"10",
 	  "text":"Attack twice if this Axie has any debuffs.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/bird-back-12.png"
@@ -809,7 +809,7 @@
 	  "attact_type":"Ranged",	  
       "cost":"0",
       "attact":"0",
-	  "defence":"40",
+	  "defence":"30",
 	  "text":"Apply Attack+ to this Axie.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/bird-horn-04.png"
    },
@@ -863,9 +863,9 @@
 	  "part":"Mouth: Doubletalk",
 	  "attact_type":"Ranged",	  
       "cost":"1",
-      "attact":"50",
+      "attact":"60",
 	  "defence":"0",
-	  "text":"Apply Sleep to target.",
+	  "text":"Ignored shield. Apply Sleep to target.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/bird-mouth-02.png"
    },
    {
@@ -962,7 +962,7 @@
 	  "part":"Tail: Post Fight",
 	  "attact_type":"Ranged",	  
       "cost":"1",
-      "attact":"140",
+      "attact":"110",
 	  "defence":"0",
 	  "text":"Inflict 30% of this Axie's max HP to itself.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/bird-tail-12.png"
@@ -984,8 +984,8 @@
 	  "part":"Back: Garish Worm",
 	  "attact_type":"Ranged",	  
       "cost":"1",
-      "attact":"100",
-	  "defence":"50",
+      "attact":"90",
+	  "defence":"40",
 	  "text":"Apply poison to target when played in a chain.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/bug-back-04.png"
    },
@@ -995,7 +995,7 @@
 	  "part":"Back: Buzz Buzz",
 	  "attact_type":"Ranged",	  
       "cost":"1",
-      "attact":"100",
+      "attact":"110",
 	  "defence":"40",
 	  "text":"Apply Attack- to target.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/bug-back-06.png"
@@ -1017,9 +1017,9 @@
 	  "part":"Back: Scarab",
 	  "attact_type":"Ranged",	  
       "cost":"1",
-      "attact":"100",
+      "attact":"110",
 	  "defence":"40",
-	  "text":"Target cannot be healed until next round.",
+	  "text":"Target cannot be healed for 2 rounds.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/bug-back-10.png"
    },
    {
@@ -1039,7 +1039,7 @@
 	  "part":"Horn: Laggin",
 	  "attact_type":"Melee",	  
       "cost":"0",
-      "attact":"40",
+      "attact":"30",
 	  "defence":"0",
 	  "text":"Apply Speed- to target for 2 rounds.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/bug-horn-02.png"
@@ -1051,7 +1051,7 @@
 	  "attact_type":"Ranged",	  
       "cost":"1",
       "attact":"80",
-	  "defence":"60",
+	  "defence":"50",
 	  "text":"Steal energy from your opponent when chained with another 'Bug Signal' card.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/bug-horn-04.png"
    },
@@ -1105,7 +1105,7 @@
 	  "part":"Mouth: Mosquito",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"70",
+      "attact":"80",
 	  "defence":"40",
 	  "text":"Heal this Axie by the damage inflicted with this card.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/bug-mouth-02.png"
@@ -1127,8 +1127,8 @@
 	  "part":"Mouth: Cute Bunny",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"120",
-	  "defence":"30",
+      "attact":"100",
+	  "defence":"35",
 	  "text":"Apply Fear to target for 2 turns when played in a Chain.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/bug-mouth-08.png"
    },
@@ -1150,7 +1150,7 @@
 	  "attact_type":"Melee",	  
       "cost":"1",
       "attact":"30",
-	  "defence":"40",
+	  "defence":"100",
 	  "text":"Apply Stench to enemy for 1 round.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/bug-tail-02.png"
    },
@@ -1160,7 +1160,7 @@
 	  "part":"Tail: Twin Tail",
 	  "attact_type":"Ranged",	  
       "cost":"0",
-      "attact":"30",
+      "attact":"40",
 	  "defence":"0",
 	  "text":"Attack twice when comboed with another card.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/bug-tail-04.png"
@@ -1183,7 +1183,7 @@
 	  "attact_type":"Ranged",	  
       "cost":"1",
       "attact":"30",
-	  "defence":"40",
+	  "defence":"30",
 	  "text":"Disable target's melee cards next round.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/bug-tail-08.png"
    },
@@ -1193,7 +1193,7 @@
 	  "part":"Tail: Pupae",
 	  "attact_type":"Melee",	  
       "cost":"0",
-      "attact":"60",
+      "attact":"70",
 	  "defence":"0",
 	  "text":"Deal 200% damage when attacking in Last stand. Axie's Last Stand ends after it attacks.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/bug-tail-10.png"
@@ -1201,10 +1201,10 @@
    {
 	  "class":"Bug",   
       "id":"allergic reaction",
-	  "part":"Tail: Thorny Cattepillar",
+	  "part":"Tail: Thorny Catepillar",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"110",
+      "attact":"100",
 	  "defence":"30",
 	  "text":"Deal 130% damage to debuffed targets.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/bug-tail-12.png"
@@ -1260,7 +1260,7 @@
 	  "attact_type":"Melee",	  
       "cost":"1",
       "attact":"10",
-	  "defence":"135",
+	  "defence":"145",
 	  "text":"Add 15% of this Axie's shield to adjacent teammates.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/reptile-back-10.png"
    },
@@ -1270,19 +1270,19 @@
 	  "part":"Back: Croc",
 	  "attact_type":"Ranged",	  
       "cost":"1",
-      "attact":"80",
+      "attact":"85",
 	  "defence":"60",
 	  "text":"Appy Speed- to target for 2 rounds.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/reptile-back-12.png"
    },
    {
-	  "class":"-blank-",   
+	  "class":"Reptile",   
       "id":"poo fling",
 	  "part":"Horn: Unko, Pinku Unko",
 	  "attact_type":"Ranged",	  
       "cost":"1",
       "attact":"30",
-	  "defence":"40",
+	  "defence":"100",
 	  "text":"Apply Stench to target until end of round.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/reptile-horn-02.png"
    },
@@ -1292,7 +1292,7 @@
 	  "part":"Horn: Scaly Spear",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"100",
+      "attact":"110",
 	  "defence":"50",
 	  "text":"Deal 120% damage when chained with another 'lunge' card.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/reptile-horn-04.png"
@@ -1314,8 +1314,8 @@
 	  "part":"Horn: Scaly Spoon",
 	  "attact_type":"Ranged",	  
       "cost":"1",
-      "attact":"40",
-	  "defence":"60",
+      "attact":"80",
+	  "defence":"50",
 	  "text":"Reflect 50% of ranged damage back at attacker.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/reptile-horn-08.png"
    },
@@ -1358,8 +1358,8 @@
 	  "part":"Mouth: Kotaro",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"80",
-	  "defence":"20",
+      "attact":"85",
+	  "defence":"30",
 	  "text":"Gain 1 energy if target is faster than this Axie.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/reptile-mouth-04.png"
    },
@@ -1369,8 +1369,8 @@
 	  "part":"Mouth: Razor Bite",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"90",
-	  "defence":"50",
+      "attact":"95",
+	  "defence":"55",
 	  "text":"Heal this Axie by damage inflicted with this card to Aquatic targets.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/reptile-mouth-08.png"
    },
@@ -1380,7 +1380,7 @@
 	  "part":"Mouth: Tiny Turtle",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"80",
+      "attact":"75",
 	  "defence":"50",
 	  "text":"Apply Stun to enemy when comboed with at least 2 additional cards.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/reptile-mouth-10.png"
@@ -1392,7 +1392,7 @@
 	  "attact_type":"Melee",	  
       "cost":"1",
       "attact":"90",
-	  "defence":"30",
+	  "defence":"20",
 	  "text":"Reduce damage taken by 15% this round.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/reptile-tail-02.png"
    },
@@ -1446,9 +1446,9 @@
 	  "part":"Tail: Grass Snake",
 	  "attact_type":"Ranged",	  
       "cost":"0",
-      "attact":"10",
-	  "defence":"20",
-	  "text":"Apply Poison to target.",
+      "attact":"20",
+	  "defence":"30",
+	  "text":"Apply 1 Poison to target.",
       "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/reptile-tail-12.png"
    }
 ]

@@ -118,7 +118,7 @@
 	  "attact_type":"Ranged",
 	  "defence":"30",
 	  "text":"End target's Last Stand.",
-      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-horn-10.png"
+      "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_11.png"
    },
    {
       "id":"star shuriken",
@@ -129,7 +129,7 @@
 	  "attact_type":"Ranged",
 	  "defence":"10",
 	  "text":"Target cannot enter Last Stand if this card brings its HP to zero.",
-      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-horn-12.png"
+      "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_12.png"
    },
    {
       "id":"angry lam",
@@ -140,7 +140,7 @@
 	  "attact_type":"Melee",
 	  "defence":"40",
 	  "text":"Deal 120% damage if this Axie's HP is below 50%.",
-      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-mouth-02.png"
+      "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_13.png"
    },
    {
       "id":"swallow",
@@ -151,7 +151,7 @@
 	  "attact_type":"Melee",
 	  "defence":"30",
 	  "text":"Heal this Axie by the damage inflicted with this card.",
-      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-mouth-04.png"
+      "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_14.png"
    },
    {
       "id":"fish hook",
@@ -162,7 +162,7 @@
 	  "attact_type":"Melee",
 	  "defence":"20",
 	  "text":"Apply Attack+ to this Axie when attacking Plant, Reptile, or Dusk targets.",
-      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-mouth-08.png"
+      "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_15.png"
    },
    {
       "id":"crimson water",
@@ -171,9 +171,9 @@
       "cost":"1",
       "attact":"130",
 	  "attact_type":"Melee",
-	  "defence":"20",
+	  "defence":"30",
 	  "text":"Target injured enemy if this Axie's HP is below 50%.",
-      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-mouth-10.png"
+      "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_16.png"
    },
    {
       "id":"upstream swim",
@@ -184,7 +184,7 @@
 	  "attact_type":"Melee",
 	  "defence":"30",
 	  "text":"Apply Speed+ to this Axie for 2 rounds when comboed with another Aquatic class card.",
-      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-tail-02.png"
+      "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_17.png"
    },
    {
       "id":"tail slap",
@@ -195,7 +195,7 @@
 	  "attact_type":"Melee",
 	  "defence":"0",
 	  "text":"Gain 1 energy when comboed with another card.",
-      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-tail-04.png"
+      "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_18.png"
    },
    {
       "id":"black bubble",
@@ -206,7 +206,7 @@
 	  "attact_type":"Ranged",
 	  "defence":"40",
 	  "text":"Apply Jinx to target for 2 rounds.",
-      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-tail-06.png"
+      "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_19.png"
    },
    {
       "id":"water sphere",
@@ -215,9 +215,9 @@
       "cost":"1",
       "attact":"110",
 	  "attact_type":"Ranged",
-	  "defence":"30",
+	  "defence":"10",
 	  "text":"Apply Chill to target for 2 rounds.",
-      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-tail-08.png"
+      "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_20.png"
    },
    {
       "id":"flanking smack",
@@ -228,7 +228,7 @@
 	  "attact_type":"Melee",
 	  "defence":"40",
 	  "text":"Deal 120% damage if this Axie attacks first.",
-      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-tail-10.png"
+      "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_21.png"
    },
    {
       "id":"chitin jump",
@@ -239,7 +239,7 @@
 	  "attact_type":"Melee",
 	  "defence":"30",
 	  "text":"Prioritizes furthest target",
-      "image":"https://storage.googleapis.com/axie-cdn/game/cards/base/aquatic-tail-12.png"
+      "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_22.png"
    },
    {
       "id":"single combat",

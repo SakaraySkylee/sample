@@ -6,7 +6,7 @@
       "cost":"1",
       "attact":"0",
 	  "attact_type":"Melee",
-	  "defence":"115",
+	  "defence":"120",
 	  "text":"Disable critical strikes on this Axie during this round.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_1.png"
    },
@@ -40,7 +40,7 @@
       "attact":"60",
 	  "attact_type":"Melee",
 	  "defence":"90",
-	  "text":"Apply Attack+ to this Axie if its shield breaks.",
+	  "text":"Apply Attack+ to this Axie if its shield breaks. Can only trigger once per round.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_4.png"
    }, 
    {
@@ -48,9 +48,9 @@
 	  "class":"Aquatic",
 	  "part":"Back: Anemone",
       "cost":"1",
-      "attact":"80",
+      "attact":"70",
 	  "attact_type":"Melee",
-	  "defence":"35",
+	  "defence":"30",
 	  "text":"Successful attacks restore 50 HP for each Anemone part this Axie posseses.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_5.png"
    },   
@@ -103,9 +103,9 @@
 	  "class":"Aquatic",
 	  "part":"Horn: Anemone",
       "cost":"1",
-      "attact":"80",
+      "attact":"70",
 	  "attact_type":"Ranged",
-	  "defence":"35",
+	  "defence":"30",
 	  "text":"Successful attacks restore 50 HP for each Anemone part this Axie posseses.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_10.png"
    },
@@ -114,9 +114,9 @@
 	  "class":"Aquatic",
 	  "part":"Horn: Oranda",
       "cost":"1",
-      "attact":"120",
+      "attact":"115",
 	  "attact_type":"Ranged",
-	  "defence":"30",
+	  "defence":"25",
 	  "text":"End target's Last Stand.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_11.png"
    },
@@ -125,9 +125,9 @@
 	  "class":"Aquatic",
 	  "part":"Horn: Shoal Star",
       "cost":"1",
-      "attact":"110",
+      "attact":"115",
 	  "attact_type":"Ranged",
-	  "defence":"10",
+	  "defence":"15",
 	  "text":"Target cannot enter Last Stand if this card brings its HP to zero.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_12.png"
    },
@@ -147,7 +147,7 @@
 	  "class":"Aquatic",
 	  "part":"Mouth: Catfish",
       "cost":"1",
-      "attact":"80",
+      "attact":"90",
 	  "attact_type":"Melee",
 	  "defence":"30",
 	  "text":"Heal this Axie by the damage inflicted with this card.",
@@ -160,7 +160,7 @@
       "cost":"1",
       "attact":"105",
 	  "attact_type":"Melee",
-	  "defence":"20",
+	  "defence":"25",
 	  "text":"Apply Attack+ to this Axie when attacking Plant, Reptile, or Dusk targets.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_15.png"
    },
@@ -235,7 +235,7 @@
 	  "class":"Aquatic",
 	  "part":"Tail: Shrimp",
       "cost":"1",
-      "attact":"30",
+      "attact":"25",
 	  "attact_type":"Melee",
 	  "defence":"30",
 	  "text":"Prioritizes furthest target",
@@ -257,7 +257,7 @@
 	  "class":"Beast",
 	  "part":"Back: HERO",
       "cost":"0",
-      "attact":"50",
+      "attact":"55",
 	  "attact_type":"Melee",
 	  "defence":"0",
 	  "text":"Draw a card when attacking an Aquatic, Bird, or Dawn target.",
@@ -290,7 +290,7 @@
 	  "class":"Beast",
 	  "part":"Back: Timber",
       "cost":"1",
-      "attact":"80",
+      "attact":"90",
 	  "attact_type":"Melee",
 	  "defence":"80",
 	  "text":"Add Shield equal to the damage this cards deals to Plant targets.",
@@ -315,7 +315,7 @@
       "attact":"125",
 	  "attact_type":"Melee",
 	  "defence":"25",
-	  "text":"Increase crit chance by 20% if chained or comboed with a plant card.",
+	  "text":"Increase crit chance by 20% if comboed with two plant card.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_29.png"
    },
    {
@@ -323,7 +323,7 @@
 	  "class":"Beast",
 	  "part":"Horn: Imp",
       "cost":"1",
-      "attact":"80",
+      "attact":"90",
 	  "attact_type":"Melee",
 	  "defence":"30",
 	  "text":"Gain 1 energy per critical strike dealt by your team this round.",
@@ -370,7 +370,7 @@
       "attact":"100",
 	  "attact_type":"Melee",
 	  "defence":"50",
-	  "text":"Apply Speed + to this Axie for 2 rounds when attacked.",
+	  "text":"Apply Speed + to this Axie for 2 rounds when comboed with another card..",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_34.png"
    },
    {
@@ -413,7 +413,7 @@
       "cost":"0",
       "attact":"0",
 	  "attact_type":"Support",
-	  "defence":"30",
+	  "defence":"40",
 	  "text":"Apply 2 Morale+ to this Axie for 2 rounds.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_38.png"
    },
@@ -433,9 +433,9 @@
 	  "class":"Beast",
 	  "part":"Tail: Rice",
       "cost":"1",
-      "attact":"80",
+      "attact":"90",
 	  "attact_type":"Melee",
-	  "defence":"10",
+	  "defence":"20",
 	  "text":"Steal 1 energy from your opponent when comboed with another card.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_40.png"
    },
@@ -455,9 +455,9 @@
 	  "class":"Beast",
 	  "part":"Tail: Hare",
       "cost":"1",
-      "attact":"120",
+      "attact":"115",
 	  "attact_type":"Ranged",
-	  "defence":"30",
+	  "defence":"20",
 	  "text":"Draw a card if this Axie attacks at the beginning of the round.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_42.png"
    },
@@ -477,7 +477,7 @@
 	  "class":"Beast",
 	  "part":"Tail: Gerbil",
       "cost":"1",
-      "attact":"40",
+      "attact":"50",
 	  "attact_type":"Melee",
 	  "defence":"20",
 	  "text":"Skip the closest target if there are 2 or more enemies remaining.",
@@ -512,7 +512,7 @@
 	  "attact_type":"Support",	  
       "cost":"0",
       "attact":"0",
-	  "defence":"50",
+	  "defence":"45",
 	  "text":"Remove all debuffs from this Axie.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_91.png"
    },
@@ -556,7 +556,7 @@
 	  "attact_type":"Melee",	  
       "cost":"1",
       "attact":"80",
-	  "defence":"70",
+	  "defence":"80",
 	  "text":"Increased 20% damage when chained with another plant card.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_95.png"
    },
@@ -599,7 +599,7 @@
 	  "part":"Horn: Cactus",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"115",
+      "attact":"110",
 	  "defence":"20",
 	  "text":"Deal 120% damage if this Axie attacks last.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_99.png"
@@ -632,8 +632,8 @@
 	  "part":"Mouth: Zigzag",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"55",
-	  "defence":"55",
+      "attact":"45",
+	  "defence":"45",
 	  "text":"Heal this Axie by the damage this card inflicts.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_102.png"
    },
@@ -656,7 +656,7 @@
       "cost":"1",
       "attact":"0",
 	  "defence":"40",
-	  "text":"Heal front teammate for 190 HP.",
+	  "text":"Heal front teammate for 120 HP. If there is no teammates, heal this Axie instead.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_104.png"
    },
    {
@@ -665,7 +665,7 @@
 	  "part":"Tail: Carrot",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"70",
+      "attact":"80",
 	  "defence":"40",
 	  "text":"Gain 1 energy if this Axie's shield breaks. Can only trigger once per round.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_105.png"
@@ -709,7 +709,7 @@
 	  "part":"Tail: Potato Leaf",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"70",
+      "attact":"80",
 	  "defence":"80",
 	  "text":"Cannot be targeted by Aquatic cards if this Axie has teammates remaining.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_109.png"
@@ -720,7 +720,7 @@
 	  "part":"Tail: Hot Butt",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"90",
+      "attact":"80",
 	  "defence":"50",
 	  "text":"Disable target's mouth cards next round.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_110.png"
@@ -743,7 +743,7 @@
 	  "attact_type":"Ranged",	  
       "cost":"1",
       "attact":"120",
-	  "defence":"20",
+	  "defence":"30",
 	  "text":"Apply Morale- to enemy for 2 rounds.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_46.png"
    },
@@ -753,7 +753,7 @@
 	  "part":"Back: Raven",
 	  "attact_type":"Ranged",	  
       "cost":"1",
-      "attact":"110",
+      "attact":"120",
 	  "defence":"30",
 	  "text":"Apply Jinx to target for 2 rounds.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_47.png"
@@ -797,7 +797,7 @@
 	  "part":"Horn: Eggshell",
 	  "attact_type":"Ranged",	  
       "cost":"1",
-      "attact":"120",
+      "attact":"110",
 	  "defence":"0",
 	  "text":"Apply Aroma on this Axie until next round.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_51.png"
@@ -809,7 +809,7 @@
 	  "attact_type":"Ranged",	  
       "cost":"0",
       "attact":"0",
-	  "defence":"30",
+	  "defence":"35",
 	  "text":"Apply Attack+ to this Axie.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_52.png"
    },
@@ -819,7 +819,7 @@
 	  "part":"Horn: Trump",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"120",
+      "attact":"125",
 	  "defence":"30",
 	  "text":"Deal 120% damage when chained with another 'Trump' card.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_53.png"
@@ -841,8 +841,8 @@
 	  "part":"Horn: Wing Horn",
 	  "attact_type":"Ranged",	  
       "cost":"1",
-      "attact":"50",
-	  "defence":"10",
+      "attact":"40",
+	  "defence":"20",
 	  "text":"Skip the closest target if there are 2 or more enemies remaining.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_55.png"
    },
@@ -885,8 +885,8 @@
 	  "part":"Mouth: Hungry Bird",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"110",
-	  "defence":"40",
+      "attact":"120",
+	  "defence":"30",
 	  "text":"Target Bug class enemy if this Axie's HP is below 50%.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_59.png"
    },
@@ -896,7 +896,7 @@
 	  "part":"Mouth: Little Owl",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"25",
+      "attact":"10",
 	  "defence":"0",
 	  "text":"Target fastest enemy.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_60.png"
@@ -918,8 +918,8 @@
 	  "part":"Tail: Feather Fan",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"40",
-	  "defence":"90",
+      "attact":"80",
+	  "defence":"50",
 	  "text":"Add 20% shield to this Axie for each debuff it possesses.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_62.png"
    },
@@ -940,8 +940,8 @@
 	  "part":"Tail: Cloud",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"100",
-	  "defence":"50",
+      "attact":"110",
+	  "defence":"40",
 	  "text":"Skip targets that are in Last Stand.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_64.png"
    },
@@ -1019,7 +1019,7 @@
       "cost":"1",
       "attact":"110",
 	  "defence":"40",
-	  "text":"Target cannot be healed for 2 rounds.",
+	  "text":"Target cannot be healed for 2 rounds (True Debuff).",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_71.png"
    },
    {
@@ -1039,7 +1039,7 @@
 	  "part":"Horn: Laggin",
 	  "attact_type":"Melee",	  
       "cost":"0",
-      "attact":"30",
+      "attact":"35",
 	  "defence":"0",
 	  "text":"Apply Speed- to target for 2 rounds.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_73.png"
@@ -1061,8 +1061,8 @@
 	  "part":"Horn: Caterpillars",
 	  "attact_type":"Ranged",	  
       "cost":"1",
-      "attact":"80",
-	  "defence":"50",
+      "attact":"110",
+	  "defence":"60",
 	  "text":"Apply Fear to shielded targets.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_75.png"
    },
@@ -1083,9 +1083,9 @@
 	  "part":"Horn: Parasite",
 	  "attact_type":"Ranged",	  
       "cost":"1",
-      "attact":"90",
+      "attact":"80",
 	  "defence":"50",
-	  "text":"Randomly discard 1 card from your enemy's hand.",
+	  "text":"Randomly discard 1 card from your enemy's hand when comboed with another card.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_77.png"
    },
    {
@@ -1116,9 +1116,9 @@
 	  "part":"Mouth: Pincer",
 	  "attact_type":"Melee",	  
       "cost":"0",
-      "attact":"30",
+      "attact":"20",
 	  "defence":"10",
-	  "text":"Randomly discard 1 card from your enemy's hand.",
+	  "text":"Randomly discard 1 card from your enemy's hand when comboed with another card.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_80.png"
    },
    {
@@ -1160,7 +1160,7 @@
 	  "part":"Tail: Twin Tail",
 	  "attact_type":"Ranged",	  
       "cost":"0",
-      "attact":"40",
+      "attact":"35",
 	  "defence":"0",
 	  "text":"Attack twice when comboed with another card.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_84.png"
@@ -1172,7 +1172,7 @@
 	  "attact_type":"Melee",	  
       "cost":"1",
       "attact":"60",
-	  "defence":"90",
+	  "defence":"80",
 	  "text":"Apply stun when struck by Aquatic or Bird class cards. Can only trigger once per round.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_85.png"
    },
@@ -1184,7 +1184,7 @@
       "cost":"1",
       "attact":"30",
 	  "defence":"30",
-	  "text":"Disable target's melee cards next round.",
+	  "text":"Disable target's melee cards when comboed with another card.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_86.png"
    },
    {
@@ -1193,7 +1193,7 @@
 	  "part":"Tail: Pupae",
 	  "attact_type":"Melee",	  
       "cost":"0",
-      "attact":"70",
+      "attact":"65",
 	  "defence":"0",
 	  "text":"Deal 200% damage when attacking in Last stand. Axie's Last Stand ends after it attacks.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_87.png"
@@ -1215,7 +1215,7 @@
 	  "part":"Back: Bone Snail, Rugged Sail",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"80",
+      "attact":"70",
 	  "defence":"70",
 	  "text":"Draw a card if this Axie's shield breaks.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_111.png"
@@ -1348,7 +1348,7 @@
 	  "attact_type":"Melee",	  
       "cost":"1",
       "attact":"20",
-	  "defence":"40",
+	  "defence":"30",
 	  "text":"Target the furthest enemy.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_123.png"
    },
@@ -1413,7 +1413,7 @@
 	  "part":"Tail: Tiny Dino",
 	  "attact_type":"Melee",	  
       "cost":"1",
-      "attact":"80",
+      "attact":"85",
 	  "defence":"40",
 	  "text":"Deal 150% damage after round 4.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_129.png"
@@ -1436,7 +1436,7 @@
 	  "attact_type":"Ranged",	  
       "cost":"1",
       "attact":"100",
-	  "defence":"50",
+	  "defence":"65",
 	  "text":"Apply Attack- to poisoned targets.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_131.png"
    },
@@ -1447,7 +1447,7 @@
 	  "attact_type":"Ranged",	  
       "cost":"0",
       "attact":"20",
-	  "defence":"30",
+	  "defence":"20",
 	  "text":"Apply 1 Poison to target.",
       "image":"https://s3.us-east-1.amazonaws.com/gamewith-en/article_tools/axie-infinity/gacha/i_132.png"
    }

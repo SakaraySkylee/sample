@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/x-icon" href="images/MayatMAN.ico">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="mayatman.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -16,265 +16,215 @@ body {font-family: "Lato", sans-serif}
 <body oncontextmenu="return false;">
 
 <!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>	
-	<a href="#rules" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RULES</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EVENTS</a>
-	<a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
-    <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
-        <a href="#" class="w3-bar-item w3-button">Extras</a>
-        <a href="#" class="w3-bar-item w3-button">Media</a>
+<div class="sk2-top">
+  <div class="sk2-bar sk2-black sk2-card">
+    <a class="sk2-bar-item sk2-button sk2-padding-large sk2-hide-medium sk2-hide-large sk2-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="sk2-bar-item sk2-button sk2-padding-large">HOME</a>
+    <a href="#about" class="sk2-bar-item sk2-button sk2-padding-large sk2-hide-small">ABOUT</a>	
+	<a href="#rules" class="sk2-bar-item sk2-button sk2-padding-large sk2-hide-small">RULES</a>
+    <a href="#tour" class="sk2-bar-item sk2-button sk2-padding-large sk2-hide-small">EVENTS</a>
+	<a href="#contact" class="sk2-bar-item sk2-button sk2-padding-large sk2-hide-small">CONTACT</a>
+    <div class="sk2-dropdown-hover sk2-hide-small">
+      <button class="sk2-padding-large sk2-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="sk2-dropdown-content sk2-bar-block sk2-card-4">
+        <a href="#merch" class="sk2-bar-item sk2-button">Merchandise</a>
+        <a href="#faq" class="sk2-bar-item sk2-button">FAQ</a>
+        <a href="#" class="sk2-bar-item sk2-button">Media</a>
       </div>
     </div>
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    <a href="javascript:void(0)" class="sk2-padding-large sk2-hover-red sk2-hide-small sk2-right"><i class="fa fa-search"></i></a>
   </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
-  <a href="#rules" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RULES</a>
-  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EVENTS</a>  
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+<div id="navDemo" class="sk2-bar-block sk2-black sk2-hide sk2-hide-large sk2-hide-medium sk2-top" style="margin-top:46px">
+  <a href="#about" class="sk2-bar-item sk2-button sk2-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#rules" class="sk2-bar-item sk2-button sk2-padding-large" onclick="myFunction()">RULES</a>
+  <a href="#tour" class="sk2-bar-item sk2-button sk2-padding-large" onclick="myFunction()">EVENTS</a>  
+  <a href="#contact" class="sk2-bar-item sk2-button sk2-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="sk2-bar-item sk2-button sk2-padding-large" onclick="myFunction()">MERCH</a>
 </div>
 
 <!-- Page content --->
-<div class="w3-content" style="max-width:2000px;margin-top:46px">
+<div class="sk2-content" style="max-width:2000px;margin-top:46px">
 
   <!-- Automatic Slideshow Images -->
-  <div class="mySlides w3-display-container w3-center">
+  <div class="mySlides sk2-display-container sk2-center">
     <img src="images/MayatMAN.webp" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small fade">
+    <div class="sk2-display-bottommiddle sk2-container sk2-text-white sk2-padding-32 sk2-hide-small fade">
       <h2> </h3>
       <p><b> </b></p>   
     </div>
   </div>
-  <div class="mySlides w3-display-container w3-center">
+  <div class="mySlides sk2-display-container sk2-center">
     <img src="images/Isolated.webp" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small fade">
+    <div class="sk2-display-bottommiddle sk2-container sk2-text-white sk2-padding-32 sk2-hide-small fade">
       <h2> </h3>
       <p><b> </b></p>    
     </div>
   </div>
-  <div class="mySlides w3-display-container w3-center">
+  <div class="mySlides sk2-display-container sk2-center">
     <img src="images/Zombie.webp" style="width:100%">
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small fade">
+    <div class="sk2-display-bottommiddle sk2-container sk2-text-white sk2-padding-32 sk2-hide-small fade">
       <h2> </h3>
       <p><b> </b></p>    
     </div>
   </div>
   
   <!-- The about Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
-    <h2 class="w3-wide">MayatMAN CLAN</h2>
-    <p class="w3-opacity"><i>Be active and Let's have fun</i></p>
-    <p class="w3-justify">Welcome soldiers. This is the Pseudo site of MayatMAN. Our clan is a friendly and fun, which helps players with their monthly missions, daily missions, battle royale, in-game event missions, or just to have fun.</p>
-    <p class="w3-justify">We are mostly new or casual players. Our goal is simple, play and have fun!, be it new comers, casual or pro players alike. Come and play along with us</p><br>
-    <p class="w3-justify">For public information, We are not currently active in any Clan Scrimmage and/or Esports Stuffs since most if not all members are functioning members of this society.</p>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-third">
-        <p>SakaraySkylee<br>The Clan Master</p>
-        <img src="images/Frame01Red.webp" class="w3-round w3-margin-bottom" alt="Clan Master" style="width:60%">
-      </div>
-      <div class="w3-third">
-        <p>HirayaManaWARI<br>Clan Vice Master</p>
-        <img src="images/Frame01Blue.webp" class="w3-round w3-margin-bottom" alt="Clan Officer" style="width:60%">
-      </div>
-      <div class="w3-third">
-        <p>从从・Ririiii<br>Clan Vice Master</p>
-        <img src="images/Frame02Blue.webp" class="w3-round" alt="Clan Officer" style="width:60%">
-      </div>
-    </div>
-  </div><br><br><br><br><br><br>
+  <div class="sk2-container sk2-content sk2-center sk2-padding-64" style="max-width:800px" id="about">
+    <h2 class="sk2-wide">MayatMAN CLAN</h2>
+    <p class="sk2-opacity"><i>Be active and Let's have fun</i></p>
+    <p class="sk2-justify">Welcome soldiers. This is the Pseudo site of MayatMAN. Our clan is a friendly and fun, which helps players with their monthly missions, daily missions, battle royale, in-game event missions, or just to have fun.</p>
+    <p class="sk2-justify">We are mostly new or casual players. Our goal is simple, play and have fun!, be it new comers, casual or pro players alike. Come and play along with us</p><br>
+    <p class="sk2-justify">For public information, We are not currently active in any Clan Scrimmage and/or Esports Stuffs since most if not all members are functioning members of this society.</p>
+	
+	<br><br><br>
+	<h3 class="sk2-wide">Know our Core Team</h3>
+	
+      <div class="sk2-row-padding sk2-padding-32" style="margin:0 -16px">
+        <div class="sk2-third sk2-margin-bottom">
+          <img src="images/Frame01Red.webp" alt="SakaraySkylee" style="width:60%" class="sk2-hover-opacity">
+          <div class="sk2-container sk2-white">
+            <p><b>SakaraySkylee</b></p>
+            <p class="sk2-opacity">Clan Master</p>
+            <p>Objective player, Clan War and BR Main, A bit loon ranger but will team up if invited. a bit busy from time to time.</p>
+            <!--<button class="sk2-button sk2-black sk2-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>-->
+          </div>
+        </div>
+        <div class="sk2-third sk2-margin-bottom">
+          <img src="images/Frame01Blue.webp" alt="HirayaManaWARI" style="width:60%" class="sk2-hover-opacity">
+          <div class="sk2-container sk2-white">
+            <p><b>HirayaManaWARI</b></p>
+            <p class="sk2-opacity">Vice Master</p>
+            <p>Casual Player, approachable, sweet and fun player. Always ready to team up.</p>
+            <!--<button class="sk2-button sk2-black sk2-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>-->
+          </div>
+        </div>
+        <div class="sk2-third sk2-margin-bottom">
+          <img src="images/Frame02Blue.webp" alt="从从・Ririiii" style="width:60%" class="sk2-hover-opacity">
+          <div class="sk2-container sk2-white">
+            <p><b>从从・Ririiii</b></p>
+            <p class="sk2-opacity">Vice Master</p>
+            <p>Silent but deadly, Competitive, BR and MP Ranked Master. Plays 24/7. Sleep is for the weak</p>
+            <!--<button class="sk2-button sk2-black sk2-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>-->
+          </div>
+        </div>
+      </div>	
+	
+  </div>
   
   <!-- The Rules Section -->
-  <div class="w3-black" id="rules">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">CLAN RULES</h2>
-      <p class="w3-opacity w3-center"><i>Simple rules to follow!</i></p><br>
+  <div class="sk2-black" id="rules">
+    <div class="sk2-container sk2-content sk2-padding-64" style="max-width:800px">
+      <h2 class="sk2-wide sk2-center">CLAN RULES</h2>
+      <p class="sk2-opacity sk2-center"><i>Simple rules to follow!</i></p><br>
 
-      <ul class="w3-ul w3-border w3-white w3-text-grey">
-        <li class="w3-padding">1. Everyone is free to join<span class="w3-tag w3-right w3-green w3-margin-left">Regardless of Age, Gender, Rank or Level </span></li>
-		<li class="w3-padding">2. Be polite to every members, players and clans <span class="w3-tag w3-right w3-red w3-margin-left">Violator's will be Kicked-Out</span></li>
-		<li class="w3-padding">3. No Toxicity/Bullying/Trash Talking with anyone <span class="w3-tag w3-right w3-red w3-margin-left">Violator's will be Kicked-Out</span></li>
-		
-        <li class="w3-padding">4. Willing to use clantag on IGN "从从・(Name)":  <span class="w3-tag w3-right w3-yellow w3-margin-left">Recommended/Optional</span></li>
-        <!--<li class="w3-padding">4. Be ACTIVE as Much as Possible in Clan Wars <span class="w3-badge w3-right w3-margin-right">500</span></li>-->
-		<li class="w3-padding">5. Be Active in Clan Wars as much as possible<span class="w3-tag w3-right w3-green w3-margin-left">Recommended/Required</span></li>
-		<li class="w3-padding">6. Use the 200% Clan bonus wisely on the node you like<span class="w3-tag w3-right w3-green w3-margin-left">Recommended/Required</span></li>
-		<li class="w3-padding">7. Must have at least 500 or more Clan Points before Season ends <span class="w3-tag w3-right w3-green w3-margin-left">Recommended/Required</span></li>
-		<li class="w3-padding">8. Must be active, at least 2x a Week<span class="w3-tag w3-right w3-green w3-margin-left">Recommended/Required</span></li>
+      <ul class="sk2-ul sk2-border sk2-white sk2-text-grey">
+        <li class="sk2-padding">1. Everyone is free to join<span class="sk2-tag sk2-right sk2-green sk2-margin-left">Regardless of Age, Gender, Rank, etc. </span></li>
+		<li class="sk2-padding">2. Do not use clan's name on inappropriate manners <span class="sk2-tag sk2-right sk2-red sk2-margin-left">Violator's will be Kicked-Out</span></li>		
+		<li class="sk2-padding">3. Be polite to every members, players and clans <span class="sk2-tag sk2-right sk2-red sk2-margin-left">Violator's will be Kicked-Out</span></li>
+		<li class="sk2-padding">4. No Toxicity/Bullying/Trash Talking with anyone <span class="sk2-tag sk2-right sk2-red sk2-margin-left">Violator's will be Kicked-Out</span></li>
+		<li class="sk2-padding">5. Willing to use clantag on IGN "从从・(Name)":  <span class="sk2-tag sk2-right sk2-yellow sk2-margin-left">Recommended/Optional</span></li>
+        <!--<li class="sk2-padding">4. Be ACTIVE as Much as Possible in Clan Wars <span class="sk2-badge sk2-right sk2-margin-right">500</span></li>-->
+		<li class="sk2-padding">6. Be Active in Clan Wars as much as possible<span class="sk2-tag sk2-right sk2-green sk2-margin-left">Recommended/Required</span></li>
+		<li class="sk2-padding">7. Use the 200% Clan bonus wisely on the node you like<span class="sk2-tag sk2-right sk2-green sk2-margin-left">Recommended/Required</span></li>
+		<li class="sk2-padding">8. Must have at least 500 or more Clan Points before Season ends <span class="sk2-tag sk2-right sk2-green sk2-margin-left">Recommended/Required</span></li>
+		<li class="sk2-padding">9. Must be active, at least 2x a Week<span class="sk2-tag sk2-right sk2-green sk2-margin-left">Recommended/Required</span></li>
+		<li class="sk2-padding">10. Always read announcement for futher instructions<span class="sk2-tag sk2-right sk2-green sk2-margin-left">Recommended/Required</span></li>
       </ul>
 
-<!--
-
-      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Clan Master</b></p>
-            <p class="w3-opacity">Fri 27 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Clan Master</button>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Vice Clan Master</b></p>
-            <p class="w3-opacity">Sat 28 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Vice Clan Master</button>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Vice Clan Master</b></p>
-            <p class="w3-opacity">Sun 29 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Vice Clan Master</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div><br><br><br><br>
-
--->  <br><br><br><br>
+  <br><br><br><br>
+  
 
   <!-- The Events Section -->
-  <div class="w3-black" id="tour">
-    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">EVENTS</h2>
-      <p class="w3-opacity w3-center"><i>Clan current or upcoming events..</i></p><br>
+  <div class="sk2-black" id="tour">
+    <div class="sk2-container sk2-content sk2-padding-64" style="max-width:800px">
+      <h2 class="sk2-wide sk2-center">EVENTS</h2>
+      <p class="sk2-opacity sk2-center"><i>Clan current or upcoming events..</i></p><br>
 
-      <ul class="w3-ul w3-border w3-white w3-text-grey">
-        <li class="w3-padding">Clan Wars <span class="w3-tag w3-right w3-green w3-margin-left">(Tuesday - Sundays)</span></li>
-        <li class="w3-padding">Clan Scrimmage<span class="w3-tag w3-right w3-red w3-margin-left">(Nothing at the moment)</span></li>
-		<li class="w3-padding">Clan ESports<span class="w3-tag w3-right w3-red w3-margin-left">(Nothing at the moment)</span></li>
-		<li class="w3-padding">In-game Events<span class="w3-tag w3-right w3-red w3-margin-left">(Nothing at the moment)</span></li>
-        <li class="w3-padding">Redeem Codes<span class="w3-tag w3-right w3-red w3-margin-left">(Nothing at the moment)</span></li>		
-        <li class="w3-padding">Clan Members<span class="w3-badge w3-right w3-margin-right">55/65</span></li>
+      <ul class="sk2-ul sk2-border sk2-white sk2-text-grey">
+        <li class="sk2-padding">Clan Wars <span class="sk2-tag sk2-right sk2-green sk2-margin-left">(Tuesday - Sundays)</span></li>
+		<li class="sk2-padding">Weekly Tournament<span class="sk2-tag sk2-right sk2-yellow sk2-margin-left">(Friday - Sundays)</span></li>
+		<li class="sk2-padding">Clan Tournament<span class="sk2-tag sk2-right sk2-red sk2-margin-left">(Nothing at the moment)</span></li>
+        <li class="sk2-padding">Clan Scrimmage<span class="sk2-tag sk2-right sk2-red sk2-margin-left">(Nothing at the moment)</span></li>
+		<li class="sk2-padding">Clan ESports<span class="sk2-tag sk2-right sk2-red sk2-margin-left">(Nothing at the moment)</span></li>
+		<li class="sk2-padding">In-game Events<span class="sk2-tag sk2-right sk2-red sk2-margin-left">(Nothing at the moment)</span></li>
+        <li class="sk2-padding">Redeem Codes<span class="sk2-tag sk2-right sk2-red sk2-margin-left">(Nothing at the moment)</span></li>		
+        <li class="sk2-padding">Clan Members<span class="sk2-badge sk2-right sk2-margin-right">55/65</span></li>
       </ul>
-	  
-<!--
-
-      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>New York</b></p>
-            <p class="w3-opacity">Fri 27 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>Paris</b></p>
-            <p class="w3-opacity">Sat 28 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom">
-          <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <p><b>San Francisco</b></p>
-            <p class="w3-opacity">Sun 29 Nov 2016</p>
-            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
-          </div>
-        </div>
-      </div>
-    </div>
+	</div>
   </div>
   
--->
+  <br><br><br><br>
+  
+    <!-- The Faq Section -->
+  <div class="sk2-bar sk2-container sk2-content sk2-center sk2-padding-64 sk2-white"  style="width:100%" id="faq">
+    <h2 class="sk2-wide">First Asked Questions</h2>
+    <p class="sk2-opacity"><i>Weather you like it or Not</i></p>
+    <p class="sk2-justify"><b>Question #1:</b> What does MayatMAN means?</p>
+	<p class="sk2-justify"><b>Answer:</b> I don't have a definitve answer at this one, ask the Vice Master HirayaManaWARI, she suggested the name of this clan.</p><br>
+    <p class="sk2-justify"><b>Question #2:</b> Is this an active clan? Seems a little boring or dead.</p>
+    <p class="sk2-justify"><b>Answer:</b> Pretty much yes we/this is an active clan, since most of us have different time zone, work or studies and/or just chillin out.</p><br>
+    <p class="sk2-justify"><b>Question #3:</b> Why most of members are WEAK, LOW LEVEL, SMURFS and using External devices?</p>
+    <p class="sk2-justify"><b>Answer:</b> We are just for fun clan, As long as members are following rules and contribute to the clan they are welcomed to stay.</p><br>	
+  </div><br><br><br><br><br><br>  
+ 
+</div>
+
+    <!-- The Merchandise Section -->
+  <div class="sk2-container sk2-content sk2-center sk2-padding-64 sk2-black"  style="max-width:800px" id="merch">
+    <h2 class="sk2-wide">Merchandise and Freebies</h2>
+	<button class="sk2-button sk2-black sk2-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">UNDER CONSTRUCTION</button>
+  </div><br><br><br><br><br><br> 
 
   <!-- Ticket Modal -->
-  <div id="ticketModal" class="w3-modal">
-    <div class="w3-modal-content w3-animate-top w3-card-4">
-      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+<!--  <div id="ticketModal" class="sk2-modal">
+    <div class="sk2-modal-content sk2-animate-top sk2-card-4">
+      <header class="sk2-container sk2-teal sk2-center sk2-padding-32"> 
         <span onclick="document.getElementById('ticketModal').style.display='none'" 
-       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
-        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+       class="sk2-button sk2-teal sk2-xlarge sk2-display-topright">×</span>
+        <h2 class="sk2-wide"><i class="fa fa-suitcase sk2-margin-right"></i>Tickets</h2>
       </header>
-      <div class="w3-container">
+      <div class="sk2-container sk2-black">
         <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <input class="sk2-input sk2-border" type="text" placeholder="How many?">
         <p><label><i class="fa fa-user"></i> Send To</label></p>
-        <input class="w3-input w3-border" type="text" placeholder="Enter email">
-        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
-        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+        <input class="sk2-input sk2-border" type="text" placeholder="Enter email">
+        <button class="sk2-button sk2-block sk2-teal sk2-padding-16 sk2-section sk2-right">PAY <i class="fa fa-check"></i></button>
+        <button class="sk2-button sk2-red sk2-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="sk2-right">Need <a href="#" class="sk2-text-blue">help?</a></p>
       </div>
     </div>
-  </div> <br><br><br><br>
-  
-  <!-- The Contact Section -->
-  
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-    <h2 class="w3-wide w3-center">CONTACT</h2>
-    <p class="w3-opacity w3-center"><i>Any problems or suggestion?</i></p>
-	
-	
-	
-    <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker" style="width:30px"></i> MayatMAN Discord Site: <br>
-        <i class="fa fa-discord" style="width:30px"></i><a href="https://discord.gg/7GdjwzbCHG">Officially (dead) Discord</a><br>
-        <!--<i class="fa fa-facebook" style="width:30px"> </i> Clan Master Facebook<br>
-		<i class="fa fa-discord" style="width:30px"></i><a href="https://facebook.com/sakarayskylee">Sakaray Skylee</a><br> -->
-      </div>
-	  
-	 <!-- 
-	  
-      <div class="w3-col m6">
-        <form action="/action_page.php" target="_blank">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-            </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-            </div>
-          </div>
-          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
-        </form>
-      </div> -->
-    </div>
-	
   </div>
- 
+-->
+
 <!-- End Page Content -->
 </div>
 
 <!-- Image of location/map -->
-<img src="images/Nuketown.webp" class="w3-image w3-greyscale-min w3-hover-opacity w3-opacity" style="width:100%">
+<img src="images/Nuketown.webp" class="sk2-image sk2-greyscale-min sk2-hover-opacity sk2-opacity" style="width:100%">
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+<footer class="sk2-container sk2-padding-64 sk2-center sk2-opacity sk2-light-grey sk2-xlarge" id="contact">
 <!--
-	<i class="fa fa-facebook-official w3-hover-opacity"></i>
-	<i class="fa fa-instagram w3-hover-opacity"></i>
-	<i class="fa fa-snapchat w3-hover-opacity"></i>
-	<i class="fa fa-pinterest-p w3-hover-opacity"></i>
-	<i class="fa fa-twitter w3-hover-opacity"></i>
-	<i class="fa fa-linkedin w3-hover-opacity"></i>
+	<i class="fa fa-facebook-official sk2-hover-opacity"></i>
+	<i class="fa fa-instagram sk2-hover-opacity"></i>
+	<i class="fa fa-snapchat sk2-hover-opacity"></i>
+	<i class="fa fa-pinterest-p sk2-hover-opacity"></i>
+	<i class="fa fa-twitter sk2-hover-opacity"></i>
+	<i class="fa fa-linkedin sk2-hover-opacity"></i>
 -->
-  <p class="w3-medium">Powered by the <a href="https://www.facebook.com/sakarayskylee" target="_blank">Internet</a></p>
-  <p class="w3-medium">Website code from the <a href="https://www.w3schools.com/" target="_blank">Internet</a></p>
-  <p class="w3-small">All media used in this site belong to their respective owners and I or this site does not claim any right over them.</p>
+		<h3>Our Contacts</h3>
+        <i class="fa fa-map-marker" style="width:30px"></i>Discord (Dead):
+        <i class="fa fa-discord" style="width:30px"></i><a href="https://discord.gg/7GdjwzbCHG">MayatMAN</a>  | 
+        <i class="fa fa-map-marker" style="width:30px"></i>Google form:
+        <i class="fa fa-discord" style="width:30px"></i><a href="https://discord.gg/7GdjwzbCHG">MayatMAN</a>	
+
+	<br>		
+
+  <p class="sk2-medium">Powered by the <a href="https://www.facebook.com/sakarayskylee" target="_blank">Internet</a><br>Website code from the <a href="https://www.w3schools.com/" target="_blank">Internet</a></p>
+  <p class="sk2-small">All media used in this site belong to their respective owners and I or this site does not claim any right over them.</p>
 </footer>
 
 <script>
@@ -297,10 +247,10 @@ function carousel() {
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
   var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
+  if (x.className.indexOf("sk2-show") == -1) {
+    x.className += " sk2-show";
   } else { 
-    x.className = x.className.replace(" w3-show", "");
+    x.className = x.className.replace(" sk2-show", "");
   }
 }
 

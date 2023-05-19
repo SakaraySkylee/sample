@@ -63,6 +63,17 @@ body {font-family: "Lato", sans-serif}
   animation: spin 2s linear infinite;
 }
 
+.loader2 {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  border-bottom: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
 /* Safari */
 @-webkit-keyframes spin {
   0% { -webkit-transform: rotate(0deg); }
@@ -72,6 +83,25 @@ body {font-family: "Lato", sans-serif}
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+.dingo {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  font-color: #FFFFFF;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #010101;
+}
+
+.dingo img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
 
 </style>
@@ -249,7 +279,7 @@ body {font-family: "Lato", sans-serif}
 			</div>
 			<div class="flip-box-back">
 				<h2>SOMETHINGS COMING</h2>
-					<div class="loader sk2-center sk2-content sk2-center"></div>
+					<div class="loader2 sk2-center sk2-content sk2-center"></div>
 			</div>
 		</div>
 	</div>
@@ -294,10 +324,18 @@ body {font-family: "Lato", sans-serif}
 	<i class="fa fa-linkedin sk2-hover-opacity"></i>
 -->
 		<h3>Our Contacts</h3>
-        <i class="fa fa-map-marker" style="width:30px"></i>Discord (Dead):
-        <i class="fa fa-discord" style="width:30px"></i><a href="https://discord.gg/7GdjwzbCHG">MayatMAN</a>  | 
-        <i class="fa fa-map-marker" style="width:30px"></i>Google form:
-        <i class="fa fa-discord" style="width:30px"></i><a href="https://discord.gg/7GdjwzbCHG">MayatMAN</a>	
+		
+		<div class="dingo sk2-gray">
+			<a href="https://discord.gg/7GdjwzbCHG"><img src="images/discord.png" alt="discord" width="30" height="30">
+			Discord: MayatMAN (Dead)
+			</a>
+		</div>
+		
+		<div class="dingo sk2-gray">
+			<a href="https://discord.gg/7GdjwzbCHG"><img src="images/googleforms.png" alt="forms" width="30" height="30">
+			Google Forms: MayatMAN (Dead)
+			</a>
+		</div>		
 
 	<br>		
 

@@ -15,8 +15,8 @@ body {font-family: "Lato", sans-serif}
 
 .flip-box {
   background-color: transparent;
-  width: 400px;
-  height: 300px;
+  width: 560px;
+  height: 418px;
   border: 0px solid #f1f1f1;
   perspective: 1000px;
 }
@@ -34,7 +34,17 @@ body {font-family: "Lato", sans-serif}
   transform: rotateY(180deg);
 }
 
-.flip-box-front, .flip-box-back {
+.flip-box-front {
+  position: absolute;
+  background-image: url("images/GhostTune.webp");  
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-back {
+  background-image: url("images/GhostTune.webp");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -43,12 +53,16 @@ body {font-family: "Lato", sans-serif}
 }
 
 .flip-box-front {
+background-color: transparent;
   background-color: #bbb;
+  background-color: transparent;
   color: black;
 }
 
 .flip-box-back {
+  background-color: transparent;
   background-color: dodgerblue;
+  background-color: transparent;
   color: white;
   transform: rotateY(180deg);
 }
@@ -274,12 +288,18 @@ body {font-family: "Lato", sans-serif}
 	<div class="flip-box sk2-content sk2-center">
 		<div class="flip-box-inner">
 			<div class="flip-box-front">
+				<br>
 				<h2>STAY TUNED</h2>
-					<div class="loader sk2-center sk2-content sk2-center"></div>
+					<div class="loader2 sk2-center sk2-content sk2-center"></div>
 			</div>
 			<div class="flip-box-back">
-				<h2>SOMETHINGS COMING</h2>
-					<div class="loader2 sk2-center sk2-content sk2-center"></div>
+				<br>
+				<h2>SOMETHINGS COMING</h2><br><br><br><br><br><br><br><br><br><br><br>
+					<!--<div class="loader2 sk2-center sk2-content sk2-center">
+					</div>-->
+					<h3 id="CountX" ></h3>
+					
+
 			</div>
 		</div>
 	</div>
@@ -381,6 +401,37 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+</script>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Dec 25, 2023 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("CountX").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("CountX").innerHTML = "EXPIRED";
+  }
+}, 1000);
 </script>
 
 </body>

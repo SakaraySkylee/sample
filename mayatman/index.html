@@ -36,7 +36,6 @@ body {font-family: "Lato", sans-serif}
 
 .flip-box-front {
   position: absolute;
-  background-image: url("images/GhostTune.webp");  
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
@@ -44,7 +43,6 @@ body {font-family: "Lato", sans-serif}
 }
 
 .flip-box-back {
-  background-image: url("images/GhostTune.webp");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -121,6 +119,10 @@ background-color: transparent;
 </style>
 </head>
 <body oncontextmenu="return false;">
+
+<audio id="PlayerX" hidden loop>
+    <source src="audios/lobby.ogg" type="audio/ogg">
+</audio>
 
 <!-- Navbar -->
 <div class="sk2-top">
@@ -284,20 +286,21 @@ background-color: transparent;
   <div class="sk2-container sk2-content sk2-center sk2-padding-64 sk2-black"  style="max-width:800px" id="merch">
     <h2 class="sk2-wide">Merchandise and Freebies</h2>
 	<button class="sk2-button sk2-black sk2-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">UNDER CONSTRUCTION</button>
-
-	<div class="flip-box sk2-content sk2-center">
+ 
+	<div class="flip-box sk2-container sk2-content sk2-center" style="width:100%">
 		<div class="flip-box-inner">
 			<div class="flip-box-front">
-				<br>
 				<h2>STAY TUNED</h2>
-					<div class="loader2 sk2-center sk2-content sk2-center"></div>
-			</div>
-			<div class="flip-box-back">
-				<br>
-				<h2>SOMETHINGS COMING</h2><br><br><br><br><br><br><br><br><br><br><br>
+				<img src="images/GhostTune.webp" style="width:60%">
 					<!--<div class="loader2 sk2-center sk2-content sk2-center">
 					</div>-->
-					<h3 id="CountX" ></h3>
+			</div>
+			<div class="flip-box-back">
+				<h2>SOMETHINGS COMING</h2>
+				<img src="images/GhostTune.webp" style="width:60%">
+					<!--<div class="loader2 sk2-center sk2-content sk2-center">
+					</div>-->
+					<h3 id="CountX"></h3>
 					
 
 			</div>
@@ -364,8 +367,21 @@ background-color: transparent;
 
  <!--<a href='https://acadooghostwriter.com/'>ACADOOghostwriter.com</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=d8b1686b5eb67ca3b2dc1614bf0ef72123a520a0'></script>-->
 <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1031622/t/2"></script>	
-  
+  <br>
+
 </footer>
+
+<script type="text/javascript">
+// Stanby Trigger for audio every 1 seconds
+var myIndex = 0;
+carouselX();
+
+function carouselX() {
+  document.getElementById("PlayerX").play();
+  <!--alert("CarouselX");-->
+  setTimeout(carouselX, 1000);    
+}
+</script>
 
 <script>
 // Automatic Slideshow - change image every 4 seconds

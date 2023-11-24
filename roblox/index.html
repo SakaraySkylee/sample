@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<title>MayatMAN CLAN</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="images/MayatMAN.ico">
+<link rel="stylesheet" href="mayatman.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html {scroll-behavior: smooth;}
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+
+.flip-box {
+  background-color: transparent;
+  width: 560px;
+  height: 418px;
+  border: 0px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+background-color: transparent;
+  background-color: #bbb;
+  background-color: transparent;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: transparent;
+  background-color: dodgerblue;
+  background-color: transparent;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+.loader2 {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  border-bottom: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.dingo {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  font-color: #FFFFFF;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #010101;
+}
+
+.dingo img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+</style>
+
+        <script type="text/javascript" src="javarice/html2canvas.js"></script>
+        <script type="text/javascript" src="javarice/glitch-lib.js"></script>
+        <script type="text/javascript" src="javarice/glitch-execute.js"></script>
+
+</head>
+<body oncontextmenu="return false;">
+
+<audio id="PlayerX" hidden loop>
+    <source src="audios/cyber.ogg" type="audio/ogg">
+</audio>
+
+<!-- Navbar -->
+<div class="sk2-top">
+  <div class="sk2-bar sk2-black sk2-card">
+    <a class="sk2-bar-item sk2-button sk2-padding-large sk2-hide-medium sk2-hide-large sk2-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="sk2-bar-item sk2-button sk2-padding-large">HOME</a>
+    <a href="#about" class="sk2-bar-item sk2-button sk2-padding-large sk2-hide-small">ABOUT</a>	
+	<a href="#rules" class="sk2-bar-item sk2-button sk2-padding-large sk2-hide-small">RULES</a>
+    <a href="#tour" class="sk2-bar-item sk2-button sk2-padding-large sk2-hide-small">EVENTS</a>
+	<a href="#contact" class="sk2-bar-item sk2-button sk2-padding-large sk2-hide-small">CONTACT</a>
+    <div class="sk2-dropdown-hover sk2-hide-small">
+      <button class="sk2-padding-large sk2-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="sk2-dropdown-content sk2-bar-block sk2-card-4">
+        <a href="#merch" class="sk2-bar-item sk2-button">Merchandise</a>
+        <a href="#faq" class="sk2-bar-item sk2-button">FAQ</a>
+        <a href="#" class="sk2-bar-item sk2-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="sk2-padding-large sk2-hover-red sk2-hide-small sk2-right"><i class="fa fa-volume-up"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="sk2-bar-block sk2-black sk2-hide sk2-hide-large sk2-hide-medium sk2-top" style="margin-top:46px">
+  <a href="#about" class="sk2-bar-item sk2-button sk2-padding-large" onclick="myFunction()">ABOUT</a>
+  <a href="#rules" class="sk2-bar-item sk2-button sk2-padding-large" onclick="myFunction()">RULES</a>
+  <a href="#tour" class="sk2-bar-item sk2-button sk2-padding-large" onclick="myFunction()">EVENTS</a>  
+  <a href="#contact" class="sk2-bar-item sk2-button sk2-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="sk2-bar-item sk2-button sk2-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content --->
+<div class="sk2-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides sk2-display-container sk2-center">
+    <img src="images/MayatMAN.webp" style="width:100%">
+    <div class="sk2-display-bottommiddle sk2-container sk2-text-white sk2-padding-32 sk2-hide-small fade">
+      <h2> </h3>
+      <p><b> </b></p>   
+    </div>
+  </div>
+  <div class="mySlides sk2-display-container sk2-center">
+    <img src="images/Isolated.webp" style="width:100%">
+    <div class="sk2-display-bottommiddle sk2-container sk2-text-white sk2-padding-32 sk2-hide-small fade">
+      <h2> </h3>
+      <p><b> </b></p>    
+    </div>
+  </div>
+  <div class="mySlides sk2-display-container sk2-center">
+    <img src="images/Zombie.webp" style="width:100%">
+    <div class="sk2-display-bottommiddle sk2-container sk2-text-white sk2-padding-32 sk2-hide-small fade">
+      <h2> </h3>
+      <p><b> </b></p>    
+    </div>
+  </div>
+  
+  <!-- The about Section -->
+  <div class="sk2-container sk2-content sk2-center sk2-padding-64" style="max-width:800px" id="about">
+    <h2 class="sk2-wide">MayatMAN CLAN</h2>
+    <p class="sk2-opacity"><i>Be active and Let's have fun</i></p>
+    <p class="sk2-justify">Welcome soldiers. This is the Pseudo site of MayatMAN. Our clan is a friendly and just for fun, which helps players with their monthly missions, daily missions, battle royale, in-game event missions, or just to have fun.</p>
+    <p class="sk2-justify">We are mostly new or casual players. Our goal is simple, play and have fun!, be it new comers, casual or pro players alike. Come and play along with us</p><br>
+    <p class="sk2-justify"><i>*For public information, We are not currently active in any Clan Scrimmage and/or Esports Stuffs since most if not all members are functioning members of this society*</i></p>
+	
+	<br><br><br>
+	<h3 class="sk2-wide">Know our Core Team</h3>
+	
+      <div class="sk2-row-padding sk2-padding-32" style="margin:0 -16px">
+        <div class="sk2-third sk2-margin-bottom">
+          <img src="images/Frame01Red.webp" alt="SakaraySkylee" style="width:60%" class="sk2-hover-opacity">
+          <div class="sk2-container sk2-white">
+            <p><b>SakaraySkylee</b></p>
+            <p class="sk2-opacity">Clan Master<br>UID:6805864705689649153</p>
+            <p>A lone wolf and will team up randomly in BR or MP, but most of the time AFK. Interested on in-game events / clan grinds</p>
+            <!--<button class="sk2-button sk2-black sk2-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>-->
+          </div>
+        </div>
+        <div class="sk2-third sk2-margin-bottom">
+          <img src="images/Frame01Blue.webp" alt="HirayaManaWARI" style="width:60%" class="sk2-hover-opacity">
+          <div class="sk2-container sk2-white">
+            <p><b>HirayaManaWARI</b></p>
+            <p class="sk2-opacity">Vice Master<br>UID:6813192154274332673</p>
+            <p>Casual and Occasional player, approachable, sweet and fun to be with. Silent but Hmmm where is she anyways? Hiraya Where are you!! . </p>
+            <!--<button class="sk2-button sk2-black sk2-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>-->
+          </div>
+        </div>
+        <div class="sk2-third sk2-margin-bottom">
+          <img src="images/Frame02Blue.webp" alt="从从・Ririiii" style="width:60%" class="sk2-hover-opacity">
+          <div class="sk2-container sk2-white">
+            <p><b>从从・Ririiiii</b></p>
+            <p class="sk2-opacity">Vice Master<br>UID:7002246074005979137</p>
+            <p>Silent but deadly, Aggressive and  Competitive, BR and MP Ranked Master. Plays 24/7. Sleep is for the weak. (Will kick you if you did something or nothing at all)</p>
+            <!--<button class="sk2-button sk2-black sk2-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>-->
+          </div>
+        </div>
+      </div>	
+	
+  </div>
+  
+  <!-- The Rules Section -->
+  <div class="sk2-black" id="rules">
+    <div class="sk2-container sk2-content sk2-padding-64" style="max-width:800px">
+      <h2 class="sk2-wide sk2-center">CLAN RULES</h2>
+      <p class="sk2-opacity sk2-center"><i>Simple rules to follow!</i></p><br>
+
+      <ul class="sk2-ul sk2-border sk2-white sk2-text-grey">
+        <li class="sk2-padding">1. Everyone is free to join<span class="sk2-tag sk2-right sk2-green sk2-margin-left">Regardless of Race, Age, Gender, Rank, etc. </span></li>
+		<li class="sk2-padding">2. Do not use clan's name on inappropriate manners <span class="sk2-tag sk2-right sk2-red sk2-margin-left">Violator's will be Kicked-Out</span></li>		
+		<li class="sk2-padding">3. Be polite to every members, players and clans <span class="sk2-tag sk2-right sk2-red sk2-margin-left">Violator's will be Kicked-Out</span></li>
+		<li class="sk2-padding">4. No Toxicity/Bullying/Trash Talking with anyone <span class="sk2-tag sk2-right sk2-red sk2-margin-left">Violator's will be Kicked-Out</span></li>
+		<li class="sk2-padding">5. Willing to use clantag on IGN "从从・(Name)":  <span class="sk2-tag sk2-right sk2-yellow sk2-margin-left">Recommended/Optional</span></li>
+        <!--<li class="sk2-padding">6. Be ACTIVE as Much as Possible in Clan Wars <span class="sk2-badge sk2-right sk2-margin-right">500</span></li>-->
+		<li class="sk2-padding">6. Be Active in Clan Wars as much as possible<span class="sk2-tag sk2-right sk2-green sk2-margin-left">Recommended/Required</span></li>
+		<li class="sk2-padding">7. Use the 200% Clan bonus wisely on node you like or sure to win<span class="sk2-tag sk2-right sk2-green sk2-margin-left">Recommended/Required</span></li>
+		<li class="sk2-padding">8. Must have at least 1500 or more Clan Points before Season ends <span class="sk2-tag sk2-right sk2-green sk2-margin-left">For Non Clan Wars Members/Required</span></li>
+		<li class="sk2-padding">&nbsp; &nbsp; &nbsp;or atleast 500 on Clan War Leaderboard<span class="sk2-tag sk2-right sk2-green sk2-margin-left">Recommended/Required</span></li>
+		<li class="sk2-padding">9. Must be active, at least 2x a Week<span class="sk2-tag sk2-right sk2-green sk2-margin-left">Recommended/Required</span></li>
+		<li class="sk2-padding">10. Always read announcement for futher instructions<span class="sk2-tag sk2-right sk2-green sk2-margin-left">Recommended/Required</span></li>
+		<li class="sk2-padding">11. Importantly, Have fun<span class="sk2-tag sk2-right sk2-green sk2-margin-left">Recommended/Required</span></li>
+      </ul>
+
+  <br><br><br><br>
+  
+  
+  <!-- The Join Section -->
+  <div class="sk2-black" id="join">
+    <div class="sk2-container sk2-content sk2-padding-64" style="max-width:800px">
+      <h2 class="sk2-wide sk2-center">HOW TO JOIN?</h2>
+      <p class="sk2-opacity sk2-center"><i>Just if you want to!</i></p><br>
+
+      <ul class="sk2-ul sk2-border sk2-white sk2-text-grey">
+        <li class="sk2-padding">1. You have Read, Understand and Agree to Clan Rules (Read Above)</li>
+		<li class="sk2-padding">2. Apply and Send "MayatMAN!" to Any In-game Clan Officers (Core Members)</li>
+		<li class="sk2-padding">3. ... hmm, will be waiting for you soldiers</li>
+      </ul>
+
+  <br><br><br><br>  
+  
+
+  <!-- The Events Section -->
+  <div class="sk2-black" id="tour">
+    <div class="sk2-container sk2-content sk2-padding-64" style="max-width:800px">
+      <h2 class="sk2-wide sk2-center">EVENTS</h2>
+      <p class="sk2-opacity sk2-center"><i>Clan current or upcoming events..</i></p><br>
+
+      <ul class="sk2-ul sk2-border sk2-white sk2-text-grey">
+        <li class="sk2-padding">Clan Wars <span class="sk2-tag sk2-right sk2-green sk2-margin-left">(Tuesday - Sundays)</span></li>
+		<li class="sk2-padding">Weekly Tournament<span class="sk2-tag sk2-right sk2-yellow sk2-margin-left">(Friday - Sundays)</span></li>
+		<li class="sk2-padding">Clan Tournament<span class="sk2-tag sk2-right sk2-red sk2-margin-left">(Nothing at the moment)</span></li>
+        <li class="sk2-padding">Clan Scrimmage<span class="sk2-tag sk2-right sk2-red sk2-margin-left">(Nothing at the moment)</span></li>
+		<li class="sk2-padding">Clan ESports<span class="sk2-tag sk2-right sk2-red sk2-margin-left">(Nothing at the moment)</span></li>
+		<li class="sk2-padding">In-game Events<span class="sk2-tag sk2-right sk2-red sk2-margin-left">(Nothing at the moment)</span></li>
+        <li class="sk2-padding">Redeem Codes<span class="sk2-tag sk2-right sk2-green sk2-margin-left">CKKLZBZGCF - Expired</span></li>
+        <li class="sk2-padding">Redeem Codes<span class="sk2-tag sk2-right sk2-green sk2-margin-left">CKONZBZJK4 - 6/9/2023</span></li>		
+        <li class="sk2-padding">Clan Members<span class="sk2-badge sk2-right sk2-margin-right">57/65</span></li>
+      </ul>
+	  
+	  <br><br>
+	  
+      <p class="sk2-opacity sk2-center"><i>In-Game Event Timers</i></p><br>
+
+      <ul class="sk2-ul sk2-border sk2-white sk2-text-grey">
+
+		<li class="sk2-padding">Clan War Resets in : <span class="sk2-tag sk2-right sk2-green sk2-margin-left" id="ClanWarEndSeason"></span></li>
+		<li class="sk2-padding">MP Rank Resets in: <span class="sk2-tag sk2-right sk2-green sk2-margin-left" id="RankResetMP"></span></li>
+		<li class="sk2-padding">BR Rank Resets in: <span class="sk2-tag sk2-right sk2-green sk2-margin-left" id="RankResetBR"></span></li>
+		
+      </ul>	  
+	  
+	</div>
+  </div>
+  
+  <br><br><br><br>
+  
+    <!-- The Faq Section -->
+  <div class="sk2-bar sk2-container sk2-content sk2-center sk2-padding-64 sk2-white"  style="width:100%" id="faq">
+    <h2 class="sk2-wide">Frequently Asked Questions</h2>
+    <p class="sk2-opacity"><i>Whether you like it or Not</i></p>
+    <p class="sk2-justify"><b>Question #1:</b> What does MayatMAN means?</p>
+	<p class="sk2-justify"><b>Answer:</b> I don't have a definitive answer for this one, ask the Vice Master HirayaManaWARI, she suggested the name of this clan.</p><br>
+    <p class="sk2-justify"><b>Question #2:</b> Is this an active clan? Seems a little boring and/or dead.</p>
+    <p class="sk2-justify"><b>Answer:</b> Pretty much yes we are, this is an active clan, since most of us have different time zone, work or studies and/or just chillin out.</p><br>
+    <p class="sk2-justify"><b>Question #3:</b> Why most of members are WEAK, LOW LEVEL, SMURFS and using External devices?</p>
+    <p class="sk2-justify"><b>Answer:</b> We are just for fun clan, As long as members are following rules and contributing to the clan, they are much welcomed to stay.</p><br>
+    <p class="sk2-justify"><b>Question #4:</b> So what is the purpose or benefit of this clan if it's not competative?</p>
+    <p class="sk2-justify"><b>Answer:</b> Hmm. Its a place you can stay, play at your own pace, group with other clan members to get Clan Crates, bonuses, clan store items,and etc.</p><br>
+    <p class="sk2-justify"><b>Question #5:</b> So many inactive members, why are they still there?</p>
+    <p class="sk2-justify"><b>Answer:</b> Some are pioneer members esp. those with 从从 names, onced helped this clan to push this far. But alas will eventually retire them someday.</p><br>		
+  </div><br><br><br><br><br><br>  
+ 
+</div>
+
+    <!-- The Merchandise Section -->
+  <div class="sk2-container sk2-content sk2-center sk2-padding-64 sk2-black"  style="max-width:800px" id="merch">
+    <h2 class="sk2-wide">Merchandise and Freebies</h2>
+	<button class="sk2-button sk2-black sk2-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">UNDER CONSTRUCTION</button>
+ 
+	<div class="flip-box sk2-container sk2-content sk2-center" style="width:100%">
+		<div class="flip-box-inner">
+			<div class="flip-box-front">
+				<h2>STAY TUNED</h2>
+				<img src="images/GhostTune.webp" style="width:80%">
+					<!--<div class="loader2 sk2-center sk2-content sk2-center">
+					</div>-->
+			</div>
+			<div class="flip-box-back">
+				<h2>SOMETHINGS COMING</h2>
+				<img src="images/GhostTune.webp" style="width:80%">
+					<!--<div class="loader2 sk2-center sk2-content sk2-center">
+					</div>-->
+					<h3 id="CountX"></h3>
+					
+
+			</div>
+		</div>
+	</div>
+	
+  </div><br><br><br><br><br><br> 
+
+  <!-- Ticket Modal -->
+<!--  <div id="ticketModal" class="sk2-modal">
+    <div class="sk2-modal-content sk2-animate-top sk2-card-4">
+      <header class="sk2-container sk2-teal sk2-center sk2-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="sk2-button sk2-teal sk2-xlarge sk2-display-topright">×</span>
+        <h2 class="sk2-wide"><i class="fa fa-suitcase sk2-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="sk2-container sk2-black">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="sk2-input sk2-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="sk2-input sk2-border" type="text" placeholder="Enter email">
+        <button class="sk2-button sk2-block sk2-teal sk2-padding-16 sk2-section sk2-right">PAY <i class="fa fa-check"></i></button>
+        <button class="sk2-button sk2-red sk2-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="sk2-right">Need <a href="#" class="sk2-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+-->
+
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="images/Nuketown.webp" class="sk2-image sk2-greyscale-min sk2-hover-opacity sk2-opacity" style="width:100%">
+
+<!-- Footer -->
+<footer class="sk2-container sk2-padding-64 sk2-center sk2-opacity sk2-light-grey sk2-xlarge" id="contact">
+<!--
+	<i class="fa fa-facebook-official sk2-hover-opacity"></i>
+	<i class="fa fa-instagram sk2-hover-opacity"></i>
+	<i class="fa fa-snapchat sk2-hover-opacity"></i>
+	<i class="fa fa-pinterest-p sk2-hover-opacity"></i>
+	<i class="fa fa-twitter sk2-hover-opacity"></i>
+	<i class="fa fa-linkedin sk2-hover-opacity"></i>
+-->
+		<h3>Our Contacts</h3>
+		
+		<div class="dingo sk2-gray">
+			<a href="https://discord.gg/7GdjwzbCHG"><img src="images/discord.png" alt="discord" width="30" height="30">
+			Discord: MayatMAN (Dead)
+			</a>
+		</div>
+		
+		<div class="dingo sk2-gray">
+			<a href="https://discord.gg/7GdjwzbCHG"><img src="images/googleforms.png" alt="forms" width="30" height="30">
+			Google Forms: MayatMAN (Dead)
+			</a>
+		</div>		
+
+	<br>		
+
+  <p class="sk2-medium">Powered by the <a href="https://www.facebook.com/sakarayskylee" target="_blank">Internet</a><br>Website code from the <a href="https://www.w3schools.com/" target="_blank">Internet</a></p>
+  <p class="sk2-small">All media used in this site belong to their respective owners and I or this site does not claim any right over them.</p>
+
+ <!--<a href='https://acadooghostwriter.com/'>ACADOOghostwriter.com</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=d8b1686b5eb67ca3b2dc1614bf0ef72123a520a0'></script>-->
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1031622/t/2"></script>	
+  <br>
+
+</footer>
+
+<!-- https://github.com/commodo/glitch-animation-effect -->
+
+<script type="text/javascript">
+            window.onload = function() {
+                var gl = Object.create(glitch_exec);
+                gl.start(document.body);
+            }
+</script> 
+
+<script type="text/javascript">
+// Stanby Trigger for audio every 1 seconds
+var myIndex = 0;
+carouselX();
+
+function carouselX() {
+  document.getElementById("PlayerX").play();
+  <!--alert("CarouselX");-->
+  setTimeout(carouselX, 1000);    
+}
+</script>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("sk2-show") == -1) {
+    x.className += " sk2-show";
+  } else { 
+    x.className = x.className.replace(" sk2-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+<script>
+// ===================================================================
+// New CountdownTimer for Clan Xmas
+// ===================================================================
+// Set the date we're counting down to
+var countDownDate01 = new Date("Dec 25, 2023 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate01 - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("CountX").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("CountX").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+
+<script>
+// ===================================================================
+// New CountdownTimer for Clan War End Season
+// ===================================================================
+// Set the date we're counting down to
+var countDownDate02 = new Date("August 4, 2023 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate02 - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  //document.getElementById("ClanWarEndSeason").innerHTML = days + "d " + hours + "h "
+  //+ minutes + "m " + seconds + "s ";
+  document.getElementById("ClanWarEndSeason").innerHTML = "Active - Approximate: " + days + " days " +" left";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("ClanWarEndSeason").innerHTML = "CLAN WAR CLOSED";
+  }
+}, 1000);
+</script>
+
+
+<script>
+	// ===================================================================
+	// New CountdownTimer for Rank Reset
+	// ===================================================================
+
+// Set the date we're counting down to
+var countDownDate03 = new Date("August 2, 2023 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate03 - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  //document.getElementById("RankResetMP").innerHTML = days + "d " + hours + "h "
+  //+ minutes + "m " + seconds + "s ";
+  //document.getElementById("RankResetBR").innerHTML = days + "d " + hours + "h "
+  //+ minutes + "m " + seconds + "s ";  
+
+  document.getElementById("RankResetMP").innerHTML = "Active - Approximate: " + days + " days " +" left";
+  document.getElementById("RankResetBR").innerHTML = "Active - Approximate: " + days + " days " +" left";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("RankResetMP").innerHTML = "EXPIRED";
+	document.getElementById("RankResetBR").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+
+
+</body>
+</html>
